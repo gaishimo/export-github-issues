@@ -2,7 +2,7 @@
 #### Description
 
 This is a tool for exporting Github Issues to text files.
-This fetches your issues and comments in your target Github repository to text files.
+This fetches your issues and comments in your target Github repository and exports to text files.
 
 One is exported to one text file.
 
@@ -14,11 +14,11 @@ bundle install
 GITHUB_ACCESS_TOKEN=xxxxxxxxxxxxxxxxx bundle exec ruby export.rb gaishimo/garbage-repo1 /tmp/issues
 ```
 
-The files will be created in your local directory like below.
+Files will be created in your local directory like below.
 
-- /tmp/issues/gaishimo/garbage-repo1/1.txt
-- /tmp/issues/gaishimo/garbage-repo1/2.txt
-- /tmp/issues/gaishimo/garbage-repo1/....txt
+- `/tmp/issues/gaishimo/garbage-repo1/1.txt`
+- `/tmp/issues/gaishimo/garbage-repo1/2.txt`
+- `/tmp/issues/gaishimo/garbage-repo1/....txt`
 
 The format in each file is like below.
 
