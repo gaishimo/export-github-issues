@@ -4,7 +4,7 @@
 This is a tool for exporting Github Issues to text files.
 This fetches your issues and comments in your target Github repository and exports to text files.
 
-One is exported to one text file.
+One issue is exported to one text file.
 
 #### Usage
 
